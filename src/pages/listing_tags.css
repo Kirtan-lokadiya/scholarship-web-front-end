@@ -1,0 +1,44 @@
+/* listing_tags.css */
+
+.card {
+  background-color: #fff; /* Default background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; /* Added background-color transition */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Move the card up slightly on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+  background-color: #f1f1f1; /* Change the background color on hover */
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.card-link:hover {
+  background-color: #0056b3; /* Change button background color on hover */
+}

@@ -1,0 +1,96 @@
+/* SignIn.css */
+
+.signin-container {
+    background-color: #f0f0f0;
+    font-family: 'gilroy';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 35px;
+  }
+  
+  .signin-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .home-link {
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .signup-button {
+    cursor: pointer;
+    font-weight: medium;
+    min-width: 148px;
+    text-align: center;
+  }
+  
+  .signin-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+    width: 39%;
+  }
+  
+  .signin-title {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .login-button {
+    cursor: pointer;
+    font-weight: medium;
+    min-width: 528px;
+    text-align: center;
+  }
+  
+  .signin-divider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+  }
+  
+  .signin-divider span {
+    font-size: 16px;
+    color: #999;
+  }
+  
+  .signin-social {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 29px;
+  }
+  
+  .google-button,
+  .facebook-button,
+  .linkedin-button {
+    cursor: pointer;
+    font-weight: medium;
+    min-width: 528px;
+    text-align: center;
+  }
+  
+  .google-button {
+    background-color: #dd4b39;
+  }
+  
+  .facebook-button {
+    background-color: #3b5998;
+  }
+  
+  .linkedin-button {
+    background-color: #0077b5;
+  }
+  
+  /* Add more styles as needed */
+  

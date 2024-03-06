@@ -1,0 +1,30 @@
+.share-container {
+    position: relative;
+  }
+  
+  .share-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .icon-container {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .icon-container > * {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  

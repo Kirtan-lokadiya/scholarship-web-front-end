@@ -1,0 +1,38 @@
+/* Sidebar.css */
+
+.sidebar {
+    background-color: #f8f9fa; /* Set the background color */
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+  .sidebar-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #343a40; /* Set the text color */
+  }
+  
+  .select-dropdown {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ced4da; /* Set the border color */
+    border-radius: 4px;
+    background-color: #fff; /* Set the background color */
+  }
+  
+  .select-dropdown:focus {
+    outline: none; /* Remove the outline when focused */
+    border-color: #80bdff; /* Change the border color on focus */
+  }
+  
+  .option {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #495057; /* Set the text color */
+  }
+  
+  .option:hover {
+    background-color: #e9ecef; /* Change the background color on hover */
+  }
+  
